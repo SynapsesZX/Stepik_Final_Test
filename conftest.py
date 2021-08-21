@@ -19,6 +19,3 @@ def browser(request):
     yield browser
     print("\nclosing the browser")
     browser.quit()
-
-
-
